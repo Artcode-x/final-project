@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: 'Sky-fonts', sans-serif
+}
+
+/* body { */
+/* margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+/* } */
+
+/* code { */
+/* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+/* } */
+
+@font-face {
+  font-family: 'Sky-fonts';
+  src: url('../public/fonts/Roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  /* переносит на новую строку, если доходим до края блока */
+  font-display: swap;
+  width: 400;
+
+}
